@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Book Store</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Owl-carousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- start #header -->
+
+<header id="header">
+  <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+      <p class="font-rale font-size-12 text-black-50 m-0"></p>
+      <div class="font-rale font-size-14">
+          <a href="login.html" class="px-3 border-right border-left text-dark">Login</a>
+          <a href="cart.html" class="px-3 border-right text-dark">Wishlist (0)</a>
+      </div>
+  </div>
+
+  <!-- Primary Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+      <a class="navbar-brand" href="#">Book Store</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto font-rubik">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                  <a class="nav-link" href="#top-sale-">Top-Selling</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#indian-reading-">Indian-Reading</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#special-price-">Categories</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#new-release-">New-Release</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#blog-">Blogs</a>
+              </li>
+          </ul>
+          <form action="#" class="font-size-14 font-rale">
+              <a href="cart.html" class="py-2 rounded-pill color-primary-bg">
+                  <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                  
+              </a>
+          </form>
+      </div>
+  </nav>
+  <!-- !Primary Navigation -->
+
+</header>
+<!-- !start #header -->
+
+
+    <!-- start #main-site -->
+        <main id="main-site">
+
+          <!-- Owl-carousel -->
+            <section id="banner-area">
+              <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <img src="assets/products/header1banner.gif" alt="Banner1">
+                  </div>
+                  <div class="item">
+                    <img src="assets/products/header1banner.gif" alt="Banner2">
+                  </div>
+                  <div class="item">
+                    <img src="assets/products/header1banner.gif" alt="Banner3">
+                  </div>
+              </div>
+            </section>
+          <!-- !Owl-carousel -->
+
+          <!-- Best Selling Books -->
+          <div id="top-sale-">
+          <section id="top-sale">
+            <div class="container py-5">
+              <h4 class="font-rubik font-size-20"><center>Best Selling Books</center> </h4>
+              <hr>
+              <!-- owl carousel -->
+                <div class="owl-carousel owl-theme">
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img id="tsb" src="assets/products/117_lit_the-secret-original-imaf59cpc9fxffwj.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>india-after-gandhi</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>₹453</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img id="tsb" src="assets/products/102_lit_exploring-the-west-three-travel-narratives.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>exploring-the-west</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>₹675</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img id="tsb" src="assets/products/103_lit_a-concise-history-of-indian-literature.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>a-concise-history-of-indian</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>₹564</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img id="tsb" src="assets/products/104_lit_a-poem-a-day.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>a-poem-a-day</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>₹776</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img id="tsb" src="assets/products/105_lit_before-the-divide.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>before-the-divide</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>₹224</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img id="tsb" src="assets/products/106_lit_english-literary-criticism-and-theory.png" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>english-literary-criticism</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>₹897</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img id="tsb" src="assets/products/107_lit_in-the-land-of-the-lovers-a-punjab-qissa.png" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>in-the-land-of-the-lovers</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>₹325</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!-- !owl carousel -->
+            </div>
+          </section>
+        </div>
+
+
+
+
+
+
+
+
+
+          <!--Indian Reading-->
+          <div id="indian-reading-">
+          <section id="top-sale">
+            <div class="container py-5">
+              <h4 class="font-rubik font-size-20"><center>Indian Reading</center> </h4>
+              <hr>
+              <!-- owl carousel -->
+                <div class="owl-carousel owl-theme">
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img id="tsb" src="assets/products/101_lit_india-after-gandhi.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>india-after-gandhi</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>₹543</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img id="tsb" src="assets/products/102_lit_exploring-the-west-three-travel-narratives.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>exploring-the-west</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>₹543</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img id="tsb" src="assets/products/103_lit_a-concise-history-of-indian-literature.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>history-of-indian-literature</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>₹675</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img id="tsb" src="assets/products/104_lit_a-poem-a-day.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>a-poem-a-day</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>₹232</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img id="tsb" src="assets/products/105_lit_before-the-divide.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>before-the-divide</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>₹987</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img id="tsb" src="assets/products/106_lit_english-literary-criticism-and-theory.png" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>english-literary-criticism</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>₹694</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img id="tsb" src="assets/products/107_lit_in-the-land-of-the-lovers-a-punjab-qissa.png" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>land-of-the-lovers</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>₹342</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!-- !owl carousel -->
+            </div>
+          </section>
+        </div>
+
+
+
+
+
+
+
+
+
+        
+
+        <!-- Shop By Category -->
+        <div id="special-price-">
+          <section id="special-price">
+            <div class="container">
+              <h4 class="font-rubik font-size-20">Shop By Category</h4>
+              <div id="filters" class="button-group text-right font-baloo font-size-16">
+                <button class="btn is-checked" data-filter="*">Literature</button>
+                <button class="btn" data-filter=".Apple">Biography</button>
+                <button class="btn" data-filter=".Samsung">Fiction</button>
+                <button class="btn" data-filter=".Redmi">Test Preperation</button>
+              </div>
+
+              <div class="grid">
+                <div class="grid-item Apple border">
+                 <div class="item py-2" style="width: 200px;">
+                  <div class="product font-rale">
+                    <a href="#"><img id="tsb" src="assets/products/113_lit_the-merchant-of-venice.png" alt="product1" class="img-fluid"></a>
+                    <div class="text-center">
+                      <h6>the-merchant-of-venice</h6>
+                      <div class="rating text-warning font-size-12">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                      </div>
+                      <div class="price py-2">
+                        <span>₹443</span>
+                      </div>
+                      <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="grid-item Samsung border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img id="tsb" src="assets/products/112_lit_nazrul.png" alt="product1" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>nazrul</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                       <div class="price py-2">
+                         <span>₹231</span>
+                       </div>
+                       <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Redmi border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img id="tsb" src="assets/products/111_lit_literature-and-national-ideology.png" alt="product1" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>national-ideology</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                       <div class="price py-2">
+                         <span>₹987</span>
+                       </div>
+                       <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Apple border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img id="tsb" src="assets/products/107_lit_in-the-land-of-the-lovers-a-punjab-qissa.png" alt="product1" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>the-land-of-the-lovers</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                       <div class="price py-2">
+                         <span>₹324</span>
+                       </div>
+                       <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Samsung border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img id="tsb" src="assets/products/106_lit_english-literary-criticism-and-theory.png" alt="product1" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>english-literary-criticism</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                       <div class="price py-2">
+                         <span>₹769</span>
+                       </div>
+                       <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item  Redmi border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img id="tsb" src="assets/products/105_lit_before-the-divide.png" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>before-the-divide</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>₹988</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item  Redmi border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img id="tsb" src="assets/products/104_lit_a-poem-a-day.png" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>poem-a-day</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>₹564</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item  Redmi border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img id="tsb" src="assets/products/103_lit_a-concise-history-of-indian-literature.png" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>history-of-indian</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>₹432</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item  Redmi border">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img id="tsb" src="assets/products/102_lit_exploring-the-west-three-travel-narratives.png" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>exploring-the-west</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>₹231</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item Apple border  " >
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img id="tsb" src="assets/products/101_lit_india-after-gandhi.png" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>india-after-gandhi</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>₹897</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- Shop By Category -->
+
+
+
+
+        <!--add banner-->
+        <section id="banner_adds">
+          <div class="container py-5 text-center">
+            <img src="assets/products/1242x150_Free_Delivery_revised_3.png" alt="banner1" class="img-fluid">
+           
+          </div>
+        </section>
+        <!--add banner-->
+
+
+
+       
+
+          <!-- New release -->
+          <div id="new-release-">
+          <section id="new-phones">
+            <div class="container">
+              <h4 class="font-rubik font-size-20"><center>New Release</center></h4>
+              <hr>
+
+                    <!-- owl carousel -->
+                    <div class="owl-carousel owl-theme">
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img id="tsb" src="assets/products/108_lit_the-the-sun-and-her-flowers.png" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>the-the-sun-and-her-flowers</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>₹739</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img id="tsb" src="assets/products/111_lit_literature-and-national-ideology.png" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>national-ideology</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>₹439</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img id="tsb" src="assets/products/112_lit_nazrul.png" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>nazrul</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>₹342</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img id="tsb" src="assets/products/105_lit_before-the-divide.png" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>before-the-divide</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>₹976</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img id="tsb" src="assets/products/106_lit_english-literary-criticism-and-theory.png" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>english-literary-criticism</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>₹453</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <div class="d-flex flex-column">
+                            <a href="#"><img id="tsb" src="assets/products/107_lit_in-the-land-of-the-lovers-a-punjab-qissa.png" class="img-fluid" alt="pro1"></a>
+                            <div class="text-center">
+                              <h6>in-the-land-of-the-lovers</h6>
+                              <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                              </div>
+                              <div class="price py-2">
+                                <span>₹872</span>
+                              </div>
+                              <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <div class="d-flex flex-column">
+                            <a href="#"><img id="tsb" src="assets/products/108_lit_the-the-sun-and-her-flowers.png" class="img-fluid" alt="pro1"></a>
+                            <div class="text-center">
+                              <h6>the-sun-and-her-flowers</h6>
+                              <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                              </div>
+                              <div class="price py-2">
+                                <span>₹298</span>
+                              </div>
+                              <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <!-- !owl carousel -->
+
+            </div>
+          </section>
+        </div>
+          <!-- new release -->
+
+
+
+
+          <!-- Blogs -->
+          <div id="blog-">
+            <section id="blogs">
+              <div class="container py-4">
+                <h4 class="font-rubik font-size-20">Latest Blogs</h4>
+                <hr>
+
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <div class="card border-0 font-rale mr-5" style="width: 18rem;">
+                      <h5 class="card-title font-size-16">Earth Day</h5>
+                      <img id="blogimg" src="assets/products/bookblog1.jpg" alt="cart image" class="card-img-top">
+                      <p class="card-text font-size-14 text-black-50 py-1">April 22 is Earth Day, and what better way to celebrate than by lacing up your sneakers and getting outside, or at least reading about that. (If your not a fan of “hiking,” I have got a secret for you: Its really just walking with a fancier name.) These books will inspire you to embrace the great outdoors, whether you leave your house or not.</p>
+                      <a href="https://www.amazon.com/amazonbookreview/read/B09Y2C8ZRY?ref_=abr_widget_nav&theme=light" class="color-second text-left">Read more...</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 font-rale mr-5" style="width: 18rem;">
+                      <h5 class="card-title font-size-16">Best science fiction</h5>
+                      <img id="blogimg" src="assets/products/bookblog2.jpg" alt="cart image" class="card-img-top">
+                      <p class="card-text font-size-14 text-black-50 py-1">A surprising novel from a best-selling author, a “soon-to-be classic” from a writer better known for her musical offerings, and three novels which are sequels to highly acclaimed—and in one case, awards-nominated—series starters. Below is merely a small selection of the Best Science Fiction and Fantasy reads of the month.</p>
+                      <a href="https://www.amazon.com/amazonbookreview/read/B09XL61RW1?ref_=abr_widget_nav&theme=light" class="color-second text-left">Read more...</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 font-rale mr-5" style="width: 18rem;">
+                      <h5 class="card-title font-size-16">Book by Book: John Sandford</h5>
+                      <img id="blogimg" src="assets/products/bookblog3.jpg" alt="cart image" class="card-img-top">
+                      <p class="card-text font-size-14 text-black-50 py-1">The name Davenport will be very familiar to fans of John Sandfords Prey novels. His new series debut, The Investigator, introduces us to Letty Davenport, Lucas adopted daughter, who is: “smart, hard-nosed and hard-bodied, lean, muscled like a dancer, and occasionally displayed a sharp, dry wit.” </p>
+                      <a href="https://www.amazon.com/amazonbookreview/read/B09XLZ7JMS?ref_=abr_widget_nav&theme=light" class="color-second text-left">Read more...</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- !Blogs -->
+
+        </main>
+    <!-- !start #main-site -->
+
+
+
+
+
+
+    <!-- start #footer -->
+        <footer id="footer" class="bg-dark text-white py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-12">
+                <h4 class="font-rubik font-size-20">E Book Store</h4>
+                <p class="font-size-14 font-rale text-white-50">With over 250+ books. Browse through variety of genres such as Fiction, Self help, literature and much more.
+                  Explore Indian Language Books, New Releases & Best sellers .</p>
+              </div>
+              <div class="col-lg-4 col-12">
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Information</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
+ 
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Account</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">My Account</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Order History</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Wish List</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="copyright text-center bg-dark text-white py-2">
+          <p class="font-rale font-size-14">Designed by Ghanshyam Shinde</p>
+        </div>
+    <!-- !start #footer -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel Js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+    <!--  isotope plugin cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
+    <script src="index.js"></script>
+</body>
+</html>
